@@ -3,7 +3,7 @@ import { NextPage } from "next";
 import React from "react";
 import Header from "../Header";
 import SearchBar from "../SearchBar";
-import UsersList from "../UsersList";
+import User from "../User";
 
 const Layout: NextPage = () => {
   return (
@@ -17,7 +17,7 @@ const Layout: NextPage = () => {
     >
       <Header />
       <SearchBar />
-      <UsersList />
+      <User />
     </Flex>
   );
 };
